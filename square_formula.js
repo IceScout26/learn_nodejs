@@ -1,7 +1,7 @@
-exports.area = function(width, height) {
-    return width * height;
+exports.area = function(height, width) {
+    return height * width;
 }
 
-exports.circumference = function(width, height) {
-    return 2 * (width + height);
+exports.circumference = function(height, width) {
+    return 2 * (height + width);
 }
